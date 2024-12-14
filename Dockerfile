@@ -22,4 +22,4 @@ WORKDIR /app
 COPY . .
 
 # Set the default command
-CMD ["python", "your_app.py"]  # Replace 'your_app.py' with your app entry point
+CMD ["python", "embedding_server.py"]  # Replace 'your_app.py' with your app entry point
